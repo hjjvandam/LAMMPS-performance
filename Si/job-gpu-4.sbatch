@@ -2,8 +2,8 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=1
-#SBATCH --gres=gpu:1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:4
 #SBATCH --account "csihpc"
 #SBATCH --partition "csi"
 #SBATCH --time 1:00:00
@@ -21,19 +21,19 @@ hostname
 module list
 
 cd ${MYCWD}/DeePMD
-time $LAMMPS_COMMAND < input.lmp 2>&1 > output-gpu-1.lmp
+time $LAMMPS_COMMAND < input.lmp 2>&1 > output-gpu-4-job-3.lmp
 #$HPCRUN -e gpu=nvidia $LAMMPS_COMMAND < input.lmp 2>&1 > output.lmp
 #$HPCSTRUCT hpctoolkit-*-measurements-*
 #$HPCPROF hpctoolkit-*-measurements-*
 
 cd ${MYCWD}/ReaxFF
-time $LAMMPS_COMMAND < input.lmp 2>&1 > output-gpu-1.lmp
+time $LAMMPS_COMMAND < input.lmp 2>&1 > output-gpu-4-job-3.lmp
 #$HPCRUN -e gpu=nvidia $LAMMPS_COMMAND < input.lmp 2>&1 > output.lmp
 #$HPCSTRUCT hpctoolkit-*-measurements-*
 #$HPCPROF hpctoolkit-*-measurements-*
 
 cd ${MYCWD}/Tersoff
-time $LAMMPS_COMMAND < input.lmp 2>&1 > output-gpu-1.lmp
+time $LAMMPS_COMMAND < input.lmp 2>&1 > output-gpu-4-job-3.lmp
 #$HPCRUN -e gpu=nvidia $LAMMPS_COMMAND < input.lmp 2>&1 > output.lmp
 #$HPCSTRUCT hpctoolkit-*-measurements-*
 #$HPCPROF hpctoolkit-*-measurements-*

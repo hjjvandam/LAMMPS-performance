@@ -1,0 +1,55 @@
+[1;93m==>[0m Warning: config:terminal_title has been replaced by install_status and is ignored
+amphost003.sdcc.bnl.local
+
+Currently Loaded Modules:
+  1) python/3.11-anaconda-2023.07   2) openmpi/4.1.5   3) cuda/11.8
+
+ 
+
+2024-07-08 15:26:18.645633: I tensorflow/core/util/port.cc:111] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-07-08 15:26:20.616300: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-08 15:26:20.616373: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-08 15:26:20.616438: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-07-08 15:26:22.086564: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-08 15:26:24.200096: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 72945 MB memory:  -> device: 0, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:4b:00.0, compute capability: 8.0
+2024-07-08 15:26:24.201679: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:1 with 72945 MB memory:  -> device: 1, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:65:00.0, compute capability: 8.0
+2024-07-08 15:26:24.220853: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:2 with 72945 MB memory:  -> device: 2, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:ca:00.0, compute capability: 8.0
+2024-07-08 15:26:24.222213: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:3 with 72945 MB memory:  -> device: 3, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:e3:00.0, compute capability: 8.0
+2024-07-08 15:26:24.244567: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:382] MLIR V1 optimization pass is not enabled
+2024-07-08 15:26:24.607348: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 72945 MB memory:  -> device: 0, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:4b:00.0, compute capability: 8.0
+2024-07-08 15:26:24.608583: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:1 with 72945 MB memory:  -> device: 1, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:65:00.0, compute capability: 8.0
+2024-07-08 15:26:24.609784: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:2 with 72945 MB memory:  -> device: 2, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:ca:00.0, compute capability: 8.0
+2024-07-08 15:26:24.610971: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:3 with 72945 MB memory:  -> device: 3, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:e3:00.0, compute capability: 8.0
+2024-07-08 15:26:24.684793: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 72945 MB memory:  -> device: 0, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:4b:00.0, compute capability: 8.0
+2024-07-08 15:26:24.686011: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:1 with 72945 MB memory:  -> device: 1, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:65:00.0, compute capability: 8.0
+2024-07-08 15:26:24.688112: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:2 with 72945 MB memory:  -> device: 2, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:ca:00.0, compute capability: 8.0
+2024-07-08 15:26:24.689297: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:3 with 72945 MB memory:  -> device: 3, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:e3:00.0, compute capability: 8.0
+2024-07-08 15:26:24.760886: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 72945 MB memory:  -> device: 0, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:4b:00.0, compute capability: 8.0
+2024-07-08 15:26:24.762100: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:1 with 72945 MB memory:  -> device: 1, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:65:00.0, compute capability: 8.0
+2024-07-08 15:26:24.763295: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:2 with 72945 MB memory:  -> device: 2, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:ca:00.0, compute capability: 8.0
+2024-07-08 15:26:24.764476: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:3 with 72945 MB memory:  -> device: 3, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:e3:00.0, compute capability: 8.0
+2024-07-08 15:26:24.835410: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 72945 MB memory:  -> device: 0, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:4b:00.0, compute capability: 8.0
+2024-07-08 15:26:24.836627: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:1 with 72945 MB memory:  -> device: 1, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:65:00.0, compute capability: 8.0
+2024-07-08 15:26:24.837822: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:2 with 72945 MB memory:  -> device: 2, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:ca:00.0, compute capability: 8.0
+2024-07-08 15:26:24.839008: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:3 with 72945 MB memory:  -> device: 3, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:e3:00.0, compute capability: 8.0
+
+real	0m22.556s
+user	0m14.414s
+sys	0m3.290s
+2024-07-08 15:26:39.065535: I tensorflow/core/util/port.cc:111] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-07-08 15:26:39.097789: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-08 15:26:39.097841: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-08 15:26:39.097869: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+
+real	2m8.094s
+user	1m50.099s
+sys	0m0.149s
+2024-07-08 15:28:47.162079: I tensorflow/core/util/port.cc:111] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-07-08 15:28:47.194145: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-08 15:28:47.194197: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-08 15:28:47.194224: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+
+real	0m3.756s
+user	0m1.738s
+sys	0m0.145s

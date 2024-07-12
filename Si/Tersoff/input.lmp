@@ -24,7 +24,7 @@ mass            1 ${mass}
 timestep	0.001
 neigh_modify    delay 10 every 1
 pair_style      tersoff
-pair_coeff      * * Si.tersoff Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si Si
+pair_coeff      * * /hpcgpfs01/work/csi/hvandam/DeePMD/GPU/lammps/potentials/Si.tersoff Si
 thermo          ${out_freq}
 thermo_style 	custom step temp pe etotal epair emol press lx ly lz vol
 restart 	${out_freq} restart.lmp restart2.lmp

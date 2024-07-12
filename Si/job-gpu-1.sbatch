@@ -21,19 +21,19 @@ hostname
 module list
 
 cd ${MYCWD}/DeePMD
-time $LAMMPS_COMMAND < input.lmp 2>&1 > output-gpu-1.lmp
+time $LAMMPS_COMMAND < input.lmp 2>&1 > output-gpu-1-job-3.lmp
 #$HPCRUN -e gpu=nvidia $LAMMPS_COMMAND < input.lmp 2>&1 > output.lmp
 #$HPCSTRUCT hpctoolkit-*-measurements-*
 #$HPCPROF hpctoolkit-*-measurements-*
 
 cd ${MYCWD}/ReaxFF
-time $LAMMPS_COMMAND < input.lmp 2>&1 > output-gpu-1.lmp
+time $LAMMPS_COMMAND < input.lmp 2>&1 > output-gpu-1-job-3.lmp
 #$HPCRUN -e gpu=nvidia $LAMMPS_COMMAND < input.lmp 2>&1 > output.lmp
 #$HPCSTRUCT hpctoolkit-*-measurements-*
 #$HPCPROF hpctoolkit-*-measurements-*
 
 cd ${MYCWD}/Tersoff
-time $LAMMPS_COMMAND < input.lmp 2>&1 > output-gpu-1.lmp
+time $LAMMPS_COMMAND < input.lmp 2>&1 > output-gpu-1-job-3.lmp
 #$HPCRUN -e gpu=nvidia $LAMMPS_COMMAND < input.lmp 2>&1 > output.lmp
 #$HPCSTRUCT hpctoolkit-*-measurements-*
 #$HPCPROF hpctoolkit-*-measurements-*
