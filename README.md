@@ -34,6 +34,7 @@ timings.
 Using GPUs (NVIDIA A100-SXM4-80GB) we obtained the following timings.
 
 | Job   | Property             | DeePMD           | ReaxFF          | Tersoff           |
+|       |                      | ---------------- | --------------- | ----------------- |
 | #GPUs |                      | 1      | 4       | 1      | 4      | 1       | 4       |
 | ----- | -------------------- | ------ | ------- | ------ | ------ | ------- | ------- |
 | 1     | Total time (minutes) | 0:31   | 0:26    | 2:12   | 1:52   | 0:02    | 0:02    |
